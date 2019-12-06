@@ -9,6 +9,7 @@
   margin: 0 7.5px 15px;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
   
   &:hover {
     cursor: pointer;
@@ -30,9 +31,9 @@
   &:first-child {
     margin-right: 7.5px
   }
-  
+   
   &:last-child {
-    margin-left: 7.5px
+    margin-left: 7.5px 
   }
   
   .background-image {
