@@ -9,7 +9,7 @@ const CollectionItem = ({id, name, price, imageUrl}) => (
       style={
         {
           backgroundImage: `url(${imageUrl})`
-        }
+        } 
       }
     ></div>
     
