@@ -34,6 +34,8 @@ class SignUp extends React.Component {
             
             await createUserProfileDocument(user, {displayName})
             
+            alert('Account Created!')
+            
             // to clear form once it finished creating user and displayName
             this.setState(
                 {
@@ -45,7 +47,7 @@ class SignUp extends React.Component {
             )
             
         } catch (error) {
-            console.error(error)
+            alert(error.message)
         }
     }
     
